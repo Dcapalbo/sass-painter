@@ -4,10 +4,7 @@
   background-color: #101010;
   padding: 10px 0;
 }
-@mixin HeaderWrapper {
+@mixin GenericWrapper {
   width: 80%;
   margin: auto;
-}
-@mixin primaryNavbars {
-  margin: 10px;
 }
