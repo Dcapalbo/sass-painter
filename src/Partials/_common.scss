@@ -1,4 +1,22 @@
-$FirstFont: 'Roboto Condensed', sans-serif;
-$SecondFont: 'Lato', sans-serif;
-$FirstColor: #A9A9A9;
-$SecondColor: #000;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+h1, h2, h3, h4 {
+  font-family: $SecondFont;
+  color: #fff;
+}  
+a {
+  padding-left: 10px;
+  text-decoration: none;
+  color: $FirstColor;
+}
+li, p {
+  font-family: $FirstFont;
+  color: #fff;
+}
+i {
+  padding-left: 10px;
+  padding-right: 10px;
+}

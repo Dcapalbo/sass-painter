@@ -1,27 +1,22 @@
 @mixin ListInlineBlock {
   display: inline-block;
   list-style: none;
-  padding-left: 30px;
   text-transform: capitalize;
 }
 @mixin ListBlock {
   display: block;
-  margin-top: 10px;
   list-style: none;
-  padding-left: 30px;
   text-transform: capitalize;
 }
 @mixin HeaderTop {
   width: 100%;
-  height: 150px;
   background-color: #101010;
-  padding: 10px 0;
 }
 @mixin GenericWrapper {
   width: 80%;
   margin: auto;
 }
 @mixin PaddingMargin {
-  padding-left: 30px;
-  margin-top: 20px;
+  padding-top: 10px;
+  margin-bottom: 10px;
 }

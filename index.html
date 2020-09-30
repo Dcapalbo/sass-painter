@@ -5,8 +5,8 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
-   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="dist/app.css">
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.28.0/moment.min.js"></script>
@@ -29,7 +29,7 @@
        <li><a href="#"><button>english<i class="fas fa-angle-down"></i></button></a></li>
       </ul>
       <ul class="secondary_navbar">
-       <li><img src="img/logo_painter.png" alt="Painter"></li>
+       <li id="logo_painter"><img src="img/logo_painter.png" alt="Painter"></li>
        <li><a href="#">products<i class="fas fa-angle-down"></i></a></li>
        <li><a href="#">brushes<i class="fas fa-angle-down"></i></a></li>
        <li><a href="#">wacom tablets</a></li>
@@ -43,33 +43,47 @@
       <!-- end navbars -->
      </div>
     </div>
-    <!-- header central -->
-    <div class="header_central">
     <!-- jumbotron -->
      <div class="jumbotron_header">
       <!-- wrapper -->
       <div class="header_central_wrapper">
        <div class="informations_box">
         <h2>Painter Essentials 7 (Windows/Mac)</h2>
-        <h4>Painting software for beginners</h4>
+        <h3>Painting software for beginners</h3>
         <ul>
-         <li><i class="fas fa-angle-right"></i>User-friendly  interface</li>
-         <li><i class="fas fa-angle-right"></i>AI-based photo  painting</li>
-         <li><i class="fas fa-angle-right"></i>Industry-acclaimed  brushes</li>
+         <li><i class="fas fa-angle-right"></i>User-friendly interface</li>
+         <li><i class="fas fa-angle-right"></i>AI-based photo painting</li>
+         <li><i class="fas fa-angle-right"></i>Industry-acclaimed brushes</li>
          <li><i class="fas fa-angle-right"></i>Incredible speed</li>
          <li><i class="fas fa-angle-right"></i>Built-in learning</li>
         </ul>
         <div class="download_trial">
-        <h4>DOWNLOAD TRIAL</h4>
+        <h4>DOWNLOAD TRIAL</h4><span><i class="fas fa-download"></i></span>
         <p>For Windows/Mac</p>
         </div>
        </div>
        <div class="payment_box">
+         <h1>$49.99</h1>
+         <p>download</p>
+         <img class="money_logo"src="img/ico-30day-money-back-guarantee-en.png" alt="money_back">
+         <button type="button" name="button">BUY NOW</button>
+         <div class="time_offer_box">
+          <h3>LIMITED-TIME OFFER</h3>
+          <p>free animations essentials brush pack ($19.99 value)</p>
+          <a id="learn_more"href="#">learn more</a>
+         </div>
        </div>
       </div>
      </div>
-    </div>
     <div class="header_bottom">
+     <ul class="wrapper">
+      <li>Overview</li>
+      <li>Features</li>
+      <li>Compare</li>
+      <li>TECH SPECS</li>
+      <li>GALLERY</li>
+      <li>LEARNING</li>
+     </ul>
     </div>
    </header>
    <!-- ending header -->
