@@ -1,9 +1,13 @@
 @mixin HeaderTop {
   width: 100%;
-  height: 200px;
-  color: #101010;
+  height: 150px;
+  background-color: #101010;
+  padding: 10px 0;
 }
 @mixin HeaderWrapper {
   width: 80%;
   margin: auto;
+}
+@mixin primaryNavbars {
+  margin: 10px;
 }

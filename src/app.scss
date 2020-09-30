@@ -15,6 +15,7 @@ h1, h2, h3, h4 {
   color: $SecondColor;
 }
 a {
+  padding-left: 10px;
   text-decoration: none;
   color: $FirstColor;
 }
@@ -25,8 +26,33 @@ li, p, span {
 li {
   @include List;
 }
+i {
+  padding-left: 10px;
+  padding-right: 10px;
+}
 // basic values
 // specific css values
+.primary_navbar {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 70px;
+  i {
+    color: #009CFF;
+    & a:hover {
+      text-decoration: underline;
+      color: #fff;
+    }
+  }
+}
+.secondary_navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  & a:hover {
+    background-color: #fff;
+    color: #000;
+  }
+}
 .header_top {
   @include HeaderTop;
   ul {

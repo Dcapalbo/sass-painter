@@ -1,6 +1,6 @@
 @mixin List {
   display: inline-block;
   list-style: none;
-  padding-left: 10px;
-
+  padding-left: 30px;
+  text-transform: capitalize;
 }
