@@ -10,8 +10,12 @@
   padding: 0;
   margin: 0;
 }
-
-h1 {
- color: $MainColor;
+h1, h2, h3, h4 {
+  font-family: $FirstFont;
+  color: $SecondColor;
+}
+li, p, span {
+  font-family: $SecondFont;
+  color: $FirstColor;
 }
 // basic values
