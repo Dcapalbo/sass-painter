@@ -39,6 +39,7 @@
    }
    #logo_painter {
      padding: 0;
+     margin-right: 50px;
      &:hover {
        background-color: transparent;
      }
@@ -176,6 +177,22 @@
   height: 50px;
   background-color: #fff;
   li {
-    color: grey;
+     @include ListInlineBlock;
+     color: grey;
+     padding: 20px 20px;
+     font-size: 20px;
+     cursor: pointer;
+     &:hover {
+       transition: 1.2s;
+       transform: scale(1.1);
+       background-color: #fff;
+       border: 1px solid #000;
+       color: #000;
+     }
   }
+}
+.header_bottom_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
