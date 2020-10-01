@@ -21,3 +21,14 @@
   padding-top: 10px;
   margin-bottom: 10px;
 }
+@mixin BackgroundImage {
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 1000px;
+}
+@mixin SectionsWrapper {
+  width: 60%;
+  height: 100%;
+  margin: auto;
+  padding: 20px;
+}

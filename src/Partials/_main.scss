@@ -1,0 +1,9 @@
+.first_section_bg {
+  @include BackgroundImage;
+  height: 600px;
+  background-image: url(../img/intro.jpg);
+}
+
+.sections_wrapper {
+  @include SectionsWrapper
+}
