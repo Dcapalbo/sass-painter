@@ -20,3 +20,22 @@ i {
   padding-left: 10px;
   padding-right: 10px;
 }
+.text_align_left {
+  text-align: left;
+}
+.text_align_right {
+  text-align: right;
+}
+// basic values
+// specific css vaulues
+// wrapper
+.sections_wrapper {
+  @include SectionsWrapper
+}
+// content wrapper
+.content_wrapper_y {
+  @include ContentSectionsWrapperY;
+}
+.content_wrapper_x {
+  @include ContentSectionsWrapperX;
+}

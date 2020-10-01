@@ -5,25 +5,16 @@
   height: 600px;
   background-image: url(../img/intro.jpg);
 }
-// wrapper
-.sections_wrapper {
-  @include SectionsWrapper
-}
-// content wrapper
-.content_wrapper {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: column;
-}
 .upper_content {
   margin-top: 10px;
   margin-bottom: 50px;
   h2, p {
-    line-height: 25px;
+    font-size: 20px;
+    line-height: 35px;
     @include PaddingMargin;
+  }
+  h2 {
+    font-size: 30px;
   }
 }
 .lower_content {
@@ -32,10 +23,7 @@
   position: relative;
 // image
   .external_laptop_image {
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    position: relative;
+    @include InsideImage;
     @include BackgroundImage;
     background-size:contain;
     background-image: url(../img/intro-screen.png);
@@ -53,11 +41,14 @@
     // add icon
     .fa-play-circle {
       position: absolute;
-      font-size: 50px;
+      font-size: 80px;
       color: #fff;
       z-index: 0;
       top: 50%;
-      left: 47%;
+      left: 45%;
+      &:hover {
+        cursor:pointer;
+      }
     }
   }
 }
@@ -66,6 +57,7 @@
   padding-right: 10px;
   position: absolute;
   transform: translateX(-100%);
+  cursor: pointer;
 }
 // end first section
 // start second section
@@ -111,7 +103,13 @@ background-image: url(../img/image-bg-02.jpg);
 // end first parallax
 // start third section
 .third_section_bg {
+  padding-top: 50px;
   background-color: $genericSectionBg;
   width: 100%;
-  height: 1500px;
+  height: 2500px;
+}
+.post_production_image {
+  @include InsideImage;
+  background-repeat: no-repeat;
+  background-image: url(../img/pillar-painting-tools.jpg);
 }
