@@ -77,8 +77,7 @@ i {
 }
 
 .header_top {
-  width: 100%;
-  min-width: 1000px;
+  min-width: 100%;
   background-color: #101010;
 }
 .header_top ul {
@@ -121,6 +120,7 @@ i {
 }
 
 .jumbotron_header {
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(../img/hero-painteressentials-7.jpg);
@@ -242,11 +242,11 @@ i {
 }
 
 .first_section_bg {
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: 15px;
   height: 600px;
-  background-repeat: no-repeat;
   background-image: url(../img/intro.jpg);
 }
 
@@ -288,8 +288,9 @@ i {
   z-index: 1;
   position: relative;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-size: contain;
   background-image: url(../img/intro-screen.png);
 }
 .lower_content .internal_laptop_image {
@@ -299,8 +300,9 @@ i {
   position: absolute;
   position: relative;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-size: contain;
   background-image: url(../img/intro-bg.jpg);
 }
 .lower_content .internal_laptop_image .fa-play-circle {
@@ -325,14 +327,13 @@ i {
 }
 
 .bird_image {
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   height: 600px;
-  background-repeat: no-repeat;
   background-size: contain;
-  background-position: center;
   background-image: url(../img/before-04.jpg);
 }
 
@@ -352,4 +353,20 @@ i {
 .second_section_bg .lower_content .fa-arrow-circle-right {
   right: 0;
   transform: translateY(1000%);
+}
+
+.first_parallax_bg {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100%;
+  background-attachment: fixed;
+  background-image: url(../img/image-bg-02.jpg);
+}
+
+.third_section_bg {
+  background-color: #222222;
+  width: 100%;
+  height: 1500px;
 }

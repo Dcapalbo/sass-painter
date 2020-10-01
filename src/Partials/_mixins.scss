@@ -9,8 +9,7 @@
   text-transform: capitalize;
 }
 @mixin HeaderTop {
-  width: 100%;
-  min-width: 1000px;
+  min-width: 100%;
   background-color: $headerTopColor;
 }
 @mixin GenericWrapper {
@@ -22,6 +21,7 @@
   margin-top: 5px;
 }
 @mixin BackgroundImage {
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
