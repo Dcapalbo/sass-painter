@@ -4,16 +4,16 @@
   margin: 0;
 }
 h1, h2, h3, h4 {
-  font-family: $SecondFont;
+  font-family:$secondFont;
   color: #fff;
-}  
+}
 a {
   padding-left: 10px;
   text-decoration: none;
-  color: $FirstColor;
+  color: grey;
 }
 li, p {
-  font-family: $FirstFont;
+  font-family: $firstFont;
   color: #fff;
 }
 i {

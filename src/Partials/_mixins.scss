@@ -10,7 +10,8 @@
 }
 @mixin HeaderTop {
   width: 100%;
-  background-color: #101010;
+  min-width: 1000px;
+  background-color: $headerTopColor;
 }
 @mixin GenericWrapper {
   width: 80%;
