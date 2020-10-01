@@ -148,7 +148,7 @@ i {
 }
 
 .informations_box li {
-  padding-top: 15px;
+  padding-top: 20px;
   margin-top: 5px;
   display: block;
   list-style: none;
@@ -272,7 +272,8 @@ i {
   margin-bottom: 50px;
 }
 .upper_content h2, .upper_content p {
-  padding-top: 15px;
+  line-height: 25px;
+  padding-top: 20px;
   margin-top: 5px;
 }
 
@@ -296,8 +297,59 @@ i {
   height: 99%;
   transform: translateY(-100%);
   position: absolute;
+  position: relative;
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url(../img/intro-bg.jpg);
+}
+.lower_content .internal_laptop_image .fa-play-circle {
+  position: absolute;
+  font-size: 50px;
+  color: #fff;
+  z-index: 0;
+  top: 50%;
+  left: 47%;
+}
+
+.book {
+  width: 40px;
+  padding-right: 10px;
+  position: absolute;
+  transform: translateX(-100%);
+}
+
+#h2, #p {
+  color: #000;
+  line-height: 25px;
+}
+
+.bird_image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url(../img/before-04.jpg);
+}
+
+.second_section_bg .lower_content {
+  position: relative;
+}
+.second_section_bg .lower_content .fa-arrow-circle-left, .second_section_bg .lower_content .fa-arrow-circle-right {
+  color: orange;
+  font-size: 30px;
+  position: absolute;
+  top: 0;
+}
+.second_section_bg .lower_content .fa-arrow-circle-left {
+  left: 0;
+  transform: translateY(1000%);
+}
+.second_section_bg .lower_content .fa-arrow-circle-right {
+  right: 0;
+  transform: translateY(1000%);
 }
