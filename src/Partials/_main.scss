@@ -85,10 +85,16 @@
   .fa-arrow-circle-left {
     left: 0;
     transform: translateY(1000%);
+    &:hover {
+      cursor:pointer;
+    }
   }
   .fa-arrow-circle-right {
     right: 0;
     transform: translateY(1000%);
+    &:hover {
+      cursor:pointer;
+    }
   }
 }
 // end second section
@@ -115,20 +121,33 @@ background-image: url(../img/image-bg-02.jpg);
 }
 .right_content_text {
   text-align: right;
+  line-height: 30px;
+  h2 {
+    margin: 20px 0;
+  }
 }
 .right_content_img {
-  @include InsideImage;
+  min-width: 600px;
+  min-height: 450px;
   @include BackgroundImage;
   background-image: url(../img/pillar-canvas.jpg);
 }
 .left_content_text {
   text-align: left;
+  line-height: 30px;
+  h2 {
+    margin: 20px 0;
+  }
 }
 .left_content_img {
-  @include InsideImage;
+  min-width: 600px;
+  min-height: 450px;
+  margin-right: 60px;
   @include BackgroundImage;
   background-image: url(../img/pillar-brushes.jpg);
 }
+// ending third section
+// parallax
 .second_parallax_bg {
   @include BackgroundImage;
   min-height: 600px;
@@ -136,3 +155,65 @@ background-image: url(../img/image-bg-02.jpg);
   background-attachment: fixed;
   background-image: url(../img/image-bg-01.jpg);
 }
+// ending parallax
+// starting fourth section
+.fourth_section_bg {
+  width: 100%;
+  height: 500px;
+  background-color: #fff;
+  h2 {
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+    padding-top: 50px;
+  }
+}
+.tools_list {
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  div {
+    position: relative;
+    min-width: 300px;
+    min-height: 300px;
+    margin: 20px;
+    background-color: #000;
+    h4 {
+      font-size: 20px;
+      position: absolute;
+      text-align: center;
+      padding-left: 20px;
+      bottom: 10%;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+    }
+    &:hover {
+      transition: 1.2s;
+      transform: scale(1.1);
+      opacity: 0.8;
+    }
+  }
+}
+// end section fourth
+// starting section fifth
+.fifth_section_bg {
+  width: 100%;
+  height: 600px;
+  @include BackgroundImage;
+  background-image: url(../img/brushpacks-bg.jpg);
+}
+// wrapper {
+//   width: 100%;
+//   height: 100%;
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+//   div {
+//     width: 300px;
+//     height: 300px;
+//     background-color: #fff;
+//   }
+// }
