@@ -63,12 +63,11 @@ i {
   text-align: center;
   display: flex;
   justify-content: flex-end;
-  padding: 15px;
+  padding: 10px;
 }
 .primary_navbar i {
   color: #009CFF;
 }
-
 .header_top li {
   display: inline-block;
   list-style: none;
@@ -125,6 +124,7 @@ i {
 
 .wrapper {
   width: 80%;
+  height: 100%;
   margin: auto;
 }
 
@@ -502,6 +502,7 @@ i {
   transition: 1.2s;
   transform: scale(1.1);
   opacity: 0.8;
+  cursor: pointer;
 }
 
 .fifth_section_bg {
@@ -511,4 +512,39 @@ i {
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(../img/brushpacks-bg.jpg);
+}
+
+.wrapper_bottom {
+  width: 60%;
+  height: 100%;
+  margin: auto;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box_content {
+  margin: 0 50px;
+  padding: 0 30px;
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: calc(100% / 2);
+  background-color: #fff;
+}
+.box_content h4 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #000;
+}
+.box_content p {
+  font-size: 20px;
+  line-height: 25px;
+  color: #000;
+}
+.box_content a {
+  color: lightblue;
 }

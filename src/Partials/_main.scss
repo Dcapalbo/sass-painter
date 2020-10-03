@@ -194,6 +194,7 @@ background-image: url(../img/image-bg-02.jpg);
       transition: 1.2s;
       transform: scale(1.1);
       opacity: 0.8;
+      cursor:pointer;
     }
   }
 }
@@ -205,15 +206,33 @@ background-image: url(../img/image-bg-02.jpg);
   @include BackgroundImage;
   background-image: url(../img/brushpacks-bg.jpg);
 }
-// wrapper {
-//   width: 100%;
-//   height: 100%;
-//   display: flex;
-//   justify-content: space-between;
-//   align-items: center;
-//   div {
-//     width: 300px;
-//     height: 300px;
-//     background-color: #fff;
-//   }
-// }
+.wrapper_bottom {
+  @include SectionsWrapper;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box_content {
+  margin: 0 50px;
+  padding: 0 30px;
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: calc(100% / 2);
+  background-color: #fff;
+  h4 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #000;
+  }
+  p {
+    font-size: 20px;
+    line-height: 25px;
+    color: #000;
+  }
+  a {
+    color: lightblue;
+  }
+}
+// end section fifth;
