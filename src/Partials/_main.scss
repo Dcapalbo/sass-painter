@@ -95,7 +95,7 @@
 // first parallax
 .first_parallax_bg {
 @include BackgroundImage;
-height: 600px;
+min-height: 600px;
 width: 100%;
 background-attachment: fixed;
 background-image: url(../img/image-bg-02.jpg);
@@ -112,4 +112,27 @@ background-image: url(../img/image-bg-02.jpg);
   @include InsideImage;
   background-repeat: no-repeat;
   background-image: url(../img/pillar-painting-tools.jpg);
+}
+.right_content_text {
+  text-align: right;
+}
+.right_content_img {
+  @include InsideImage;
+  @include BackgroundImage;
+  background-image: url(../img/pillar-canvas.jpg);
+}
+.left_content_text {
+  text-align: left;
+}
+.left_content_img {
+  @include InsideImage;
+  @include BackgroundImage;
+  background-image: url(../img/pillar-brushes.jpg);
+}
+.second_parallax_bg {
+  @include BackgroundImage;
+  min-height: 600px;
+  width: 100%;
+  background-attachment: fixed;
+  background-image: url(../img/image-bg-01.jpg);
 }

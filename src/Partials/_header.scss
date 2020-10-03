@@ -30,12 +30,17 @@
     padding: 0px 10px;
   }
    li {
+     position: relative;
      padding: 20px 10px;
      &:hover {
       background-color: #fff;
       color: #000;
       transition: 0.2s;
-    }
+     }
+     .dropdown_menu {
+      top: 59px;
+      position: absolute;
+     }
    }
    #logo_painter {
      padding: 0;
