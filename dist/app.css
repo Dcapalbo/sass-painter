@@ -536,7 +536,7 @@ i {
   background-color: #fff;
 }
 .box_content h4 {
-  font-size: 25px;
+  font-size: 20px;
   margin-bottom: 20px;
   color: #000;
 }
@@ -547,4 +547,29 @@ i {
 }
 .box_content a {
   color: lightblue;
+}
+
+.wrapper_footer {
+  width: 70%;
+  height: 500px;
+  margin: auto;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.informations_list_item {
+  display: block;
+  list-style: none;
+  text-transform: capitalize;
+}
+.informations_list_item li {
+  color: grey;
+  padding: 5px 30px;
+}
+.informations_list_item h4 {
+  font-size: 20px;
+  color: #000;
+  margin-bottom: 20px;
 }

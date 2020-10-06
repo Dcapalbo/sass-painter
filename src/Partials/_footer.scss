@@ -1,0 +1,21 @@
+.wrapper_footer {
+  width: 70%;
+  height: 500px;
+  margin: auto;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.informations_list_item {
+  @include ListBlock;
+  li {
+    color: grey;
+    padding: 5px 30px;
+  }
+  h4 {
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 20px;
+  }
+}
