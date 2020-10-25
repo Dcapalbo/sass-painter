@@ -1,6 +1,7 @@
+// first footer section
 .wrapper_footer {
   width: 70%;
-  height: 500px;
+  height: 100%;
   margin: auto;
   padding: 0;
   display: flex;
@@ -19,3 +20,34 @@
     margin-bottom: 20px;
   }
 }
+.social_menu li {
+  position: absolute;
+}
+// second footer section
+.second_footer_section {
+  width: 100%;
+  height: 100px;
+  background-color: $genericSectionBg;
+}
+.menu_logos li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+.menu_footer_informations li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+  text-transform: capitalize;
+  span {
+    color: grey;
+    &:hover {
+      cursor: pointer;
+      text-decoration: underline;
+      color: #fff;
+      transition: 1.1s;
+    }
+  }
+}
+// end second section
+// end footer

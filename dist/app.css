@@ -99,12 +99,38 @@ i {
 }
 .secondary_navbar li:hover {
   background-color: #fff;
+}
+.secondary_navbar li:hover .dropdown_menu {
+  background-color: #fff;
   color: #000;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   transition: 0.2s;
+  opacity: 1;
+  cursor: pointer;
 }
 .secondary_navbar li .dropdown_menu {
   top: 59px;
+  left: 0;
+  background-color: #fff;
   position: absolute;
+  opacity: 0;
+  z-index: 2;
+}
+.secondary_navbar li .dropdown_menu li {
+  width: 220px;
+  text-align: left;
+  padding: 20px 20px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.secondary_navbar li .dropdown_menu li i {
+  opacity: 0.4;
+}
+.secondary_navbar li .dropdown_menu li:hover {
+  background-color: lightgrey;
+  cursor: pointer;
 }
 .secondary_navbar #logo_painter {
   padding: 0;
@@ -485,7 +511,7 @@ i {
   min-width: 300px;
   min-height: 300px;
   margin: 20px;
-  background-color: #000;
+  background-color: #fff;
 }
 .tools_list div h4 {
   font-size: 20px;
@@ -551,7 +577,7 @@ i {
 
 .wrapper_footer {
   width: 70%;
-  height: 500px;
+  height: 100%;
   margin: auto;
   padding: 0;
   display: flex;
@@ -572,4 +598,36 @@ i {
   font-size: 20px;
   color: #000;
   margin-bottom: 20px;
+}
+
+.social_menu li {
+  position: absolute;
+}
+
+.second_footer_section {
+  width: 100%;
+  height: 100px;
+  background-color: #222222;
+}
+
+.menu_logos li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+
+.menu_footer_informations li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+  text-transform: capitalize;
+}
+.menu_footer_informations li span {
+  color: grey;
+}
+.menu_footer_informations li span:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #fff;
+  transition: 1.1s;
 }
